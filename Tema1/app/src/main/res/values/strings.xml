@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tema1</string>
+    <string name="Nume">Nume</string>
+    <string name="Prenume">Prenume</string>
+    <string name="Email">Email</string>
+    <string name="Send">Send</string>
+</resources>
