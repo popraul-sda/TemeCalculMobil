@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstPicture">
+
+    <fragment
+        android:id="@+id/firstPicture"
+        android:name="com.example.temafragments.FirstPicture"
+        android:label="fragment_first_picture"
+        tools:layout="@layout/fragment_first_picture" >
+        <action
+            android:id="@+id/action_firstPicture_to_secondPicture"
+            app:destination="@id/secondPicture" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondPicture"
+        android:name="com.example.temafragments.SecondPicture"
+        android:label="fragment_second_picture"
+        tools:layout="@layout/fragment_second_picture" >
+        <action
+            android:id="@+id/action_secondPicture_to_thirdPicture"
+            app:destination="@id/thirdPicture" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthPicture"
+        android:name="com.example.temafragments.FourthPicture"
+        android:label="fragment_fourth_picture"
+        tools:layout="@layout/fragment_fourth_picture" >
+        <action
+            android:id="@+id/action_fourthPicture_to_firstPicture"
+            app:destination="@id/firstPicture" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdPicture"
+        android:name="com.example.temafragments.ThirdPicture"
+        android:label="fragment_third_picture"
+        tools:layout="@layout/fragment_third_picture" >
+        <action
+            android:id="@+id/action_thirdPicture_to_fourthPicture"
+            app:destination="@id/fourthPicture" />
+    </fragment>
+</navigation>

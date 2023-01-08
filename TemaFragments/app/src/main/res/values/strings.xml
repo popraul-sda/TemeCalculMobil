@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TemaFragments</string>
+    <string name="buton1">back</string>
+    <string name="buton2">forward</string>
+    <string name="buton3">description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

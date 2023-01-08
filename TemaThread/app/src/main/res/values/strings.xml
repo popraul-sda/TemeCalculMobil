@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TemaThread</string>
+    <string name="start">Start</string>
+    <string name="extrema">Introdu extrema interval</string>
+    <string name="numar">Introdu numarul tau</string>
+    <string name="text">Rezultat</string>
+</resources>
