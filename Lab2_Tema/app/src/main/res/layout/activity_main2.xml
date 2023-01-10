@@ -10,15 +10,16 @@
         android:id="@+id/suma"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="300dp"
         android:onClick="onClickBtn2"
         android:text="+"
         android:textColor="#FFEB3B"
         android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/diferenta"
+        app:layout_constraintEnd_toStartOf="@+id/nb2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nb1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/diferenta"
@@ -29,62 +30,62 @@
         android:textColor="#FFEB3B"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nb3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/nb"
         app:layout_constraintTop_toBottomOf="@+id/suma"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
         android:id="@+id/nb1"
         android:layout_width="50dp"
         android:layout_height="40dp"
-        android:layout_marginStart="20dp"
         android:text="TextView"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/suma"
-        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/nb"
+        app:layout_constraintEnd_toStartOf="@+id/suma"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
         android:id="@+id/nb2"
         android:layout_width="50dp"
         android:layout_height="40dp"
-        android:layout_marginEnd="4dp"
         android:text="TextView"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/suma"
+        app:layout_constraintBottom_toTopOf="@+id/nb3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/suma"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The numbers are: "
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/suma"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        android:id="@+id/nb"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/diferenta"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.375" />
+        app:layout_constraintTop_toBottomOf="@+id/nb1"
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="120dp"
-        android:text="and"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/suma"
+        android:id="@+id/nb3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nb1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/diferenta"
+        app:layout_constraintTop_toBottomOf="@+id/nb2"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
