@@ -58,7 +58,7 @@ public class MyService extends Service {
 
             }else{
                 ToneGenerator beep = new ToneGenerator(AudioManager.STREAM_MUSIC, volum);
-                beep.startTone(ToneGenerator.TONE_CDMA_ANSWER, durata);
+                beep.startTone(ToneGenerator.TONE_CDMA_ABBR_ALERT, durata);
                 break;
             }
         }

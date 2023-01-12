@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Lab6_TemaSunete</string>
     <string name="btnSunet">Click</string>
-    <string name="tasteaza_durata">tasteaza durata</string>
-    <string name="tasteaza_volumul">tasteaza volumul</string>
-    <string name="tasteaza_perioada">tasteaza perioada</string>
+    <string name="tasteaza_durata">tasteaza durata(100 - 1000)</string>
+    <string name="tasteaza_volumul">tasteaza volumul(100 - 300)</string>
+    <string name="tasteaza_perioada">tasteaza perioada(1 - 60)</string>
 </resources>
